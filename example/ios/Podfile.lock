@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - sum_plugin (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - sum_plugin (from `.symlinks/plugins/sum_plugin/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  sum_plugin:
+    :path: ".symlinks/plugins/sum_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  sum_plugin: b068f66bf1f76a7344aa0e1fdba5c1c7c5b07980
+
+PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+
+COCOAPODS: 1.10.1

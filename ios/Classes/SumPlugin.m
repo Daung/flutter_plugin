@@ -15,7 +15,7 @@
   }else if ([@"sum" isEqualToString:call.method]) {
       NSInteger a = [call.arguments[@"num1"] intValue];
       NSInteger b = [call.arguments[@"num2"] intValue];
-      result([NSNumber numberWithInt:(a + b)]);
+      result([NSNumber numberWithLong:(a + b)]);
     } else {
     result(FlutterMethodNotImplemented);
   }
